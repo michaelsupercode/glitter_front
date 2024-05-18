@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import './App.css';
-import { disableReactDevTools } from ‘@fvilers/disable-react-devtools’;
+import { disableReactDevTools } from "@fvilers/disable-react-devtools";
 import CommunityList from './components/CommunityList';
 import JoinCommunityForm from './components/JoinCommunityForm';
 
