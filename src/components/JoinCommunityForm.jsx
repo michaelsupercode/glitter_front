@@ -9,7 +9,7 @@ const JoinCommunityForm = (props) => {
     const joinGlitterForce = (event) => {
         event.preventDefault()
 
-        fetch("http://localhost:6099/users/registerUser", {
+        fetch("https://glitter-back.onrender.com/users/registerUser", {
             method: "post",
             headers: {
                 "Content-Type": "application/json"
