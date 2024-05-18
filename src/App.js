@@ -12,7 +12,7 @@ function App() {
   return (
     <div className="App">
      <JoinCommunityForm setGlitterUsers={setUsers} />
-     <CommunityList glitterUsers={users} setGlitterUsers={setUsers} title="🎖️ !!!___=== Glitterforce Community ===___!!! 🎖️" />
+     <CommunityList glitterUsers={users} setGlitterUsers={setUsers} title="🎖️ !!__== Glitterforce Community ==__!! 🎖️" />
     </div>
   );
 }
